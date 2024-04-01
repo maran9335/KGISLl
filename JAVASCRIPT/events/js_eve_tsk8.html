@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="number">Enter an Integer : </label>
+    <input text="texbox" id="number">
+    <label for="dropdown">Select a Value : </label>
+    <select id="dropdown" onchange="drpdwn1()"></select>
+    <label for="dropdown1">Selected Value's Dropdown : </label>
+    <select id="dropdown1"></select>
+    <script>
+        var num = document.getElementById("number").value
+        var dropdown = document.getElementById("dropdown")
+        number.addEventListener("keyup", () => {
+            var num = document.getElementById("number").value
+            var dropdown = document.getElementById("dropdown")
+            for (var i = 0; i <= parseInt(num); i++) {
+                var option = document.createElement("option")
+                option.value = i;
+                option.text = i;
+                dropdown.appendChild(option)
+            }
+        });
+        function drpdwn1() {
+            var dropdown = document.getElementById("dropdown").value
+            var dd2 = document.getElementById("dropdown1")
+            for (var j = 0; j <= parseInt(dropdown); j++) {
+                var option = document.createElement("option")
+                option.value = j;
+                option.text = j;
+                dropdown1.appendChild(option)
+            }
+        }
+    </script>
+</body>
+
+</html>

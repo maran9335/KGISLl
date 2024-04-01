@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <form>
+        <label for="input1">Enter first value:</label>
+        <input type="text" id="input1">
+
+        <label for="input2">Enter second value:</label>
+        <input type="text" id="input2">
+
+        <button type="button" onclick="validateForm()">Validate</button>
+    </form>
+
+    <script>
+        function validateForm() {
+           
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+
+         
+            if (input1 === '' || input2 === '') {
+                alert("One of your data is empty, kindly fill it and try again:)");
+            } else {
+                alert("Form is successfully validated");
+               
+            }
+        }
+    </script>
+
+</body>
+</html>

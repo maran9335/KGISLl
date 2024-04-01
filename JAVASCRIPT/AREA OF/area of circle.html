@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titleArea</title>
+</head>
+<body>
+
+    <script>
+        function calculateArea(base, height) {
+            if (isNaN(base) || isNaN(height)) {
+                return 'Invalid input';
+            }
+            var area = 0.5 * base * height;
+            return area;
+        }
+        var base = 50;
+        var height =8;
+        var result = calculateArea(base, height);
+
+        document.write('The area of the triangle is: ' + result);
+    </script>
+
+</body>
+</html>

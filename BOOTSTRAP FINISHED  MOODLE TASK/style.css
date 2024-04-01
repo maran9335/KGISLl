@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins&family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px 20px ;
+    box-shadow: 5px 5px 30px rgb(37, 35, 35,.8);
+    background: black;
+    height: 70px;
+    
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: chartreuse !important;
+}
+#navbarSupportedContent a{
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid chartreuse;
+   
+}
+.btn{
+
+}
+#navbarSupportedContent button{
+
+    background-color: chartreuse;
+    width: 100px;
+    border-radius: 30px;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#sec{
+    background-image:  linear-gradient(rgb(23, 17, 17 ,0.8),rgb(21, 11, 11,0.5)),url(Chilly_Powder_669x669.webp);
+    color: rgb(17, 15, 15);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#sec h1{
+    font-size: 100px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255),
+                 0px 2px 0px rgb(255, 255, 255),
+                 0px 3px 0px rgb(255, 255, 255),
+                 0px 4px 0px rgb(255, 255, 255),
+                 0px 5px 0px rgb(255, 255, 255),
+                 0px 6px 0px rgb(255, 255, 255),
+                 0px 7px 0px rgb(255, 255, 255);
+    
+    
+}
+#sec p{
+    font-size: 18px;
+    color: aliceblue;
+}
+#sec .input-group{
+    width: 40%;
+    height: 45px;
+}
+.btn{
+    color: aliceblue;
+    background-color: rgb(62, 105, 19);
+    box-shadow: 2px 4px 5px rgb(17, 15, 15);
+}
+#about{
+    background: linear-gradient( to right,rgb(226, 112, 131),rgb(214, 147, 159),rgb(237, 30, 30) 100%);
+
+}
+#about h1{
+    font-weight: 800px;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#about img{
+    margin-top:20%;
+    
+}
+#product{
+    background: grey;
+}
+#produc h5{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#product h1{
+    color: aliceblue;
+}

@@ -1,0 +1,22 @@
+.container{
+    border: 5px solid black;
+    padding: 10px;
+    width: 1000px;
+    justify-content: 
+    
+    
+}
+
+.box{
+    border: 5px solid red;
+    padding: 30px;
+    margin: 10px;
+    font-weight: bold; 
+    background-color: red;
+    flex-direction: row;
+    
+}
+    .container{
+    display: flex;
+    
+}

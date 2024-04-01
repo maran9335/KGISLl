@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        img{
+            padding-left: 200px;
+        }
+        .boxx{
+            display: flex;
+            padding: 10px;
+           
+
+        }
+        button{
+            padding: 7px;
+            padding-left: 10px;
+            margin-top: 20px;
+            margin-left: 100px;
+            color: white;
+            background-color: darkblue;
+            border-radius: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="boxx">
+       <div class="btn"> <button onclick="red()" id="red">red</button>
+      <br>  <button onclick="yellow()" id="yel">yellow</button>
+      <br>  <button onclick="green()" id="gr">green</button>
+      </div>
+        <img src="https://cdn.pixabay.com/photo/2013/07/12/15/17/traffic-light-149581_1280.png"
+       alt="red" id="img" height="200px" >
+        
+      
+          
+           
+    </div>
+    <script>
+       function red(){
+      var image =document.getElementById("img");
+      image.src="https://cdn.pixabay.com/photo/2013/07/12/15/17/traffic-light-149581_1280.png"
+       var btn2=document.getElementById("yel");
+        var btn3=document.getElementById("gr");
+        var btn1=document.getElementById("red");
+        var btn2=document.getElementById("yel")
+        btn3.style.backgroundColor="darkblue";
+        btn1.style.backgroundColor="red ";
+        btn2.style.backgroundColor="darkblue";
+    }
+     function yellow(){
+        var ylo =document.getElementById("img")
+        ylo.src="https://cdn.pixabay.com/photo/2013/07/12/15/17/traffic-light-149582_1280.png"
+        var btn2=document.getElementById("yel");
+        var btn3=document.getElementById("gr");
+        var btn1=document.getElementById("red");
+        var btn2=document.getElementById("yel")
+        btn3.style.backgroundColor="darkblue";
+        btn1.style.backgroundColor="darkblue ";
+        btn2.style.backgroundColor="yellow ";
+       
+     }
+
+     function green(){
+        var gre = document.getElementById("img")
+        gre.src="https://i.pinimg.com/474x/71/35/2a/71352a1ca1f55575ac3303c9173e0b77.jpg"
+        var btn3=document.getElementById("gr");
+        var btn1=document.getElementById("red");
+        var btn2=document.getElementById("yel")
+        btn3.style.backgroundColor="green ";
+        btn1.style.backgroundColor="darkblue ";
+        btn2.style.backgroundColor="darkblue ";
+       
+    }
+    </script>
+</body>
+</html>

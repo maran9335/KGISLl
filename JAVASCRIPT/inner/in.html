@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--- <label>num1</label>
+    <input type="text" id="num1">
+    <label for="">num2</label>
+    <input type="text" id="num2">
+    <button onclick="result()">total</button>
+    <h1 id="finel">result</h1>---->
+ <script>
+  var div =document.createElement("div")
+  var btn = document.createElement("button")
+  var heading= document.createElement("h1")
+  var para = document.createElement("p")
+  var heading_text=document.createTextNode("headingle")
+  var para_text=document.createTextNode("para lettr")
+  var button = document.createTextNode("submit")
+  heading.appendChild(heading_text)
+  para.appendChild(para_text)
+  btn.appendChild(button)
+  div.appendChild(heading)
+  div.appendChild(para)
+  div.appendChild(btn)
+  document.body.appendChild(div)
+  heading.style.color="red"
+
+    </script>
+</body>
+</html>

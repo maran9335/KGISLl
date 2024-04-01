@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+
+<body>
+    <h1 id="h1">Add to Card</h1>
+
+    <div id="log">
+        <input type="text" name="text" id="inputText" />
+
+        <button onclick="pushData();" id="button">Add</button>
+    </div>
+
+    <h2 id="h2">My Cart Items</h2>
+
+    <ul id="view"></ul>
+
+    <script>
+
+        function pushData() {
+
+            let view = document.getElementById("view");
+
+            let newTd = document.createElement("li");
+
+            var inputText = document.getElementById("inputText").value;
+
+            var node = document.createTextNode(inputText);
+
+            newTd.appendChild(node);
+
+            view.appendChild(newTd);
+
+            document.getElementById("inputText").value = "";
+
+        }
+
+        const heading = document.getElementById("h1");
+        heading.style.fontFamily = "Arial, sans-serif";
+        heading.style.color = "black";
+        heading.style.textAlign = "center";
+        heading.style.marginBottom = "20px";
+
+        const logon = document.getElementById("log");
+        logon.style.display = "flex";
+        logon.style.justifyContent = "center";
+
+        const button = document.getElementById("button");
+        button.style.backgroundColor = "#0275d8";
+        button.style.color = "white";
+        button.style.padding = "10px 20px";
+        button.style.border = "none";
+        button.style.borderRadius = "5px";
+        button.style.marginLeft = "10px";
+
+        const heading2 = document.getElementById("h2");
+        heading2.style.fontFamily = "Arial, sans-serif";
+        heading2.style.color = "black";
+        heading2.style.textAlign = "center";
+        heading2.style.marginBottom = "20px";
+
+        const lst = document.getElementById("view");
+        lst.style.fontFamily = "Arial, sans-serif";
+        lst.style.color = "black";
+        lst.style.textAlign = "center";
+        lst.style.listStyleType = "none";
+
+    </script>
+</body>
+
+</html>

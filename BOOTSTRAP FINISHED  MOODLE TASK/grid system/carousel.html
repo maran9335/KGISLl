@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="carouls.css">
+<style>
+    
+body{
+  height: 100vh;
+  width: 100wh;
+  margin: 0;
+padding: 0;
+}
+
+
+.carousel-control-next{
+  color: black;
+}
+
+.letter{
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  
+  
+}
+
+.container{
+  height: 500px;
+  width: 500px;
+  background-color: antiquewhite;
+  margin-left: 100px;
+}
+.carousel-caption{
+  color: aqua;
+  margin: top 50%;
+  padding-top:50%;
+  
+}
+.carousel-control-prev{
+  color: red;
+  
+  margin-left: 350px;
+  margin-top: 550px;
+}
+.carousel-control-next{
+  margin-top: 45%;
+  margin-right: 50%;
+ 
+}
+
+body{
+    background-color: rgb(37, 36, 36);
+}
+</style>
+</head>
+<body>
+    <div class="td text-warning p-5 ms-auto"><h3>Testimonials</h3>
+        <h1 class="tt text-light"> Our Members</h1>
+        <H1 class=" text-light">Says</H1>
+        
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    
+    <div class="container col-lg-6 col-md-12 col-sm-5-; bg-secondary">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU_0ohS_tlNLAYWtK5QpWyNq2usBRJDejdsg&usqp=CAU" class="d-block" alt="...">
+        <div class="carousel-caption d-none d-md-inline">
+          <p >Some representative placeholder content for the first slide.</p>
+          <h5 >First slide label</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GgZRhu0Yz_iI3i1zAj8HeDuOmO1eJ7wUtQ&usqp=CAU" class="d-block " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWT916ZIZzh7ZTuRB9cq3yVWptueIy-eKYw&usqp=CAU" class="d-block " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev col-12" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    </body>
+</html>

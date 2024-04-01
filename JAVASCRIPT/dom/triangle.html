@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label >base</label>
+    <input type="text" id="base">
+    <label >height</label>
+    <input type="text" id="height">
+    <button type="button" onclick="result()">result</button>
+
+<script>
+    function result(){
+        var base = document.getElementById("base").value
+        var height =document.getElementById("height").value
+        var result = base * height 
+        alert(`area of triangle is ${result/2}`)
+    }
+</script>
+
+</body>
+</html>

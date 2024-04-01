@@ -1,0 +1,29 @@
+
+[
+   {
+        "model":"redmii",
+        "brand":"note 10",
+        "mrp":16.530,
+        "price":18000,
+        "ram":"4gb",
+        "image":"https://m.media-amazon.com/images/I/810GQ7CWdDL._AC_UY218_.jpg",
+        "stroage":"120gp",
+        "camera":"108mp",
+        "stock":true
+  
+    },
+
+    
+
+   {
+        "model":"samsung",
+        "brand":"galexy s22",
+        "mrp":16.530,
+        "price":18000,
+        "ram":"4gb",
+        "image":"https://m.media-amazon.com/images/I/810GQ7CWdDL._AC_UY218_.jpg",
+        "stroage":"120gp",
+        "camera":"108mp",
+        "stock":false
+    }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var Products = ["mobile","Laptop","Fridge","Watch","Mixer"]
+document.write(Products + "<br>")
+
+document.write(Products[3] + "<br>")
+document.write(Products[0] + "<br>")
+document.write(Products.length + "<br>")
+for(var i=0; i<Products.length;i++){
+    document.write(Products[i]+ "<br>")
+
+}
+for(a in Products){
+    document.write(Products[a]+ "<br>")
+}
+
+Products.push ("tv")
+document.write(Products + "<br>")
+
+Products.unshift ("aaaaa")
+document.write(Products + "<br>")
+
+Products.pop()
+document.write( Products+ "<br>")
+
+Products.shift()
+document.write( Products+ "<br>")
+
+ Products.splice (1,5,"tab","cycle","table")
+ document.write( Products+ "<br>")
+
+
+ var copyProducts = Products.slice(2,3)
+ document.write(copyProducts + "<br>")
+
+ document.write(Products.join("$") + "<br>")
+
+ document.write(Products.concat(copyProducts) + "<br>")
+ document.write(Products.indexOf("Table") + "<br>")
+ 
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+.navbar{
+    display: flex;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: azure;
+    height: 5vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    position: sticky;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 85;
+    margin-top: -13px;
+    margin-left: 20px;
+}
+
+.navtitles{
+    margin-top: 9px;
+    margin-left: 50px
+}
+
+.logsin{
+    margin-left: 500px;
+}
+
+.logbut{
+    display: inline-flex;
+    background-color: aliceblue;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    justify-content: center;
+
+}
+.signbut{
+    display: inline-flex;
+    background-color: black;
+    color: aliceblue;
+    margin-left: -100px;
+}

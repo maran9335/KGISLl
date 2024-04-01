@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">num1
+        <input type="text" id="num1">
+    </label>
+    <label for="">num2
+        <input type="text" id="num2">
+    </label>
+    <button onclick="result()">result</button>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    
+    <script>
+        function result(){
+        var num1=document.getElementById("num1").value
+        var num2=document.getElementById("num2").value
+        var finel =document.getElementById("finel")
+        sub.innerHTML= `sub: ${num1-num2}` 
+        mul.innerHTML= `mul: ${num1*num2}`
+    }
+    </script>
+</body>
+</html>

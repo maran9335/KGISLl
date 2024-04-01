@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ECART WEBSITE</h1>
+<div id="div"></div>
+    <script>
+        function show(){
+        fetch('https://fakestoreapi.com/products?limit=5')
+        .then((data)=>data.json())
+        .then((res)=>{
+            console.log(res)
+
+            let div = document.getElementById("div")
+            res.map((element)=> {
+                div.innerHTML +=`
+            <h2> ${element.title}</h2>
+           <p>${element.description}</p>
+           <mark> ${element.price}<mark>
+            <img src=
+            ${element.image} style="height:200px;"/>
+            <summary> ${element.category
+            }</summary>`
+           
+   
+           
+        
+
+            })
+            
+        })}
+        
+
+       
+
+        show()
+        
+
+    </script>
+</body>
+</html>

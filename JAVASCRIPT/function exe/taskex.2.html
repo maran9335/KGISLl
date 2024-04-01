@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function TriangleType(side1, side2, side3) {
+  if (side1 === side2 && side2 === side3) {
+    document.write("Equilateral triangle");
+  } else if (side1 === side2 || side2 === side3) {
+    document.write ("Isosceles triangle.");
+  } else {
+    document.write("Scalene triangle.");
+  }
+  document.write("<br>")
+}
+TriangleType(50, 50, 50)
+TriangleType(0, 50, 50)
+TriangleType(50, 10, 80)
+
+
+
+    </script>
+</body>
+</html>

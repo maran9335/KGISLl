@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Inputs</title>
+</head>
+<body>
+
+    <label for="input1">Enter first value:</label>
+    <input type="text" id="input1">
+
+    <label for="input2">Enter second value:</label>
+    <input type="text" id="input2">
+
+    <button onclick="compare()">Compare</button>
+
+    <script>
+        function compare() {
+            
+            var input1 = document.getElementById("input1").value;
+            var input2 = document.getElementById("input2").value;
+
+        
+            if (input1 === input2) {
+                alert("Data's are equal");
+            } else {
+                alert("Data's are not equal");
+            }
+        }
+    </script>
+
+</body>
+</html>

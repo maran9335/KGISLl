@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+
+    <form>
+        <label for="num1">Enter first number:</label>
+        <input type="number" id="num1">
+
+        <label for="num2">Enter second number:</label>
+        <input type="number" id="num2">
+
+        <button type="button" onclick="performOperations()">submit</button>
+
+        <h2>Results:</h2>
+        <p id="addition"></p>
+        <p id="subtraction"></p>
+        <p id="multiplication"></p>
+        <p id="division"></p>
+        <p id="remainder"></p>
+    </form>
+
+    <script>
+        function performOperations() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers.");
+                return;
+            }
+
+          
+            var additionResult = num1 + num2;
+            var subtractionResult = num1 - num2;
+            var multiplicationResult = num1 * num2;
+            var divisionResult = num1 / num2;
+            var remainderResult = num1 % num2;
+
+        
+            document.getElementById("addition").innerHTML = "Addition: " + additionResult;
+            document.getElementById("subtraction").innerHTML = "Subtraction: " + subtractionResult;
+            document.getElementById("multiplication").innerHTML = "Multiplication: " + multiplicationResult;
+            document.getElementById("division").innerHTML = "Division: " + divisionResult;
+            document.getElementById("remainder").innerHTML = "Remainder: " + remainderResult;
+        }
+    </script>
+
+</body>
+</html>

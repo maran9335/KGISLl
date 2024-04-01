@@ -1,0 +1,42 @@
+.scroll-container{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100vw;
+}
+.scroll{
+    white-space: nowrap;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 500px;
+   
+
+}
+.scroll div{
+    display: flex;
+    gap: 2em;
+
+}
+.scroll h2{
+    font-size: 1em;
+    line-height: 10px; 
+    align-items: center; 
+    font-weight: 400;
+    font-size: 20px;
+    color:aliceblue
+    
+}
+.right{
+    animation:right 10s infinite linear;
+}
+@keyframes right{
+    form{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+.left{
+    animation:left 10s infinite linear;
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/1200x/75/59/7a/75597a8a52cb4409d42b8cebbc7b896c.jpg');
+    background-size: 1500px;
+}
+
+.head{
+    display: flex;
+}
+
+header{
+    margin-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.loc{
+    margin-left: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tim{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.homebar{
+    display: flex;
+    box-sizing: content-box;
+    padding: 5px;
+    background-color: rgb(163, 159, 159);
+    height: 6vh;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.navicons{
+    margin-left: 700px;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbuttons{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: red;
+}
+
+#wel{
+    color: red;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+.blogbutton {
+    display: inline-flex;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+    padding: 15px 35px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 400px;
+  }

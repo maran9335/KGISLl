@@ -1,0 +1,18 @@
+.card{
+    height: 200px;
+    width: 250px;
+    background-color: rgb(245, 236, 236);
+    border: none;
+    box-shadow: 1px 10px 4px rgba(0, 0, 0, 0.4);
+  
+
+}
+.card:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(196, 234, 150);
+    transition: 1s;
+}
+.all{
+    background: linear-gradient(to right, gray,rgb(112, 104, 104),gray);
+}

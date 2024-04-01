@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+nav{
+    width: 100%;
+    position: sticky!important ;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgb(12, 8, 8,.5);
+   
+}
+.navbar-brand{
+    font-weight: 600;
+    
+}
+.nav-link{
+    color: aliceblue !important;
+   
+}
+.nav-link:hover{
+ border: 2px solid greenyellow;
+}
+
+                                        /* home section*/        
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.4)),url(https://www.betterup.com/hubfs/Imported_Blog_Media/pro-goals-blog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#home p{
+    position: absolute;/*onnoda onnu ottikurum*/
+    top: 50%;
+    font-size: 100px;
+    opacity: 0;
+    animation: text 3s ease-out;
+    
+}
+#home p:nth-child(1){
+    animation-delay: 0s;
+}
+#home p:nth-child(2){
+    animation-delay: 3s;
+}
+#home p:nth-child(3){
+    animation-delay:6s ;
+}
+@keyframes text{
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@media screen and (max-width:576px) {
+    #home p{
+        font-size: 80px;
+    }
+    
+}
+#home p span{
+    color: yellow;
+}
+                                              /* ---about ---*/
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(37, 35, 37);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.6);
+    margin-bottom: 40px;
+    transition: 1s;
+}
+.circle img{
+    position: absolute;
+    height: 200px;
+   left: 25%;
+  top: -20px;
+    border-radius:20%;
+    filter: drop-shadow(1px 30px 30px rgba(74, 232, 17, 0.5));
+    transition: 1s;
+}
+.circle:hover{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.circle:hover img{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    transition: 1s;
+}
+.circle .contant{
+    color: aliceblue;
+}
+.circle:hover .contant{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    width: 50%;
+    opacity: 1;
+    transition: 1s;
+}
+.circle .contant{
+    opacity: 0;
+}
+@media screen and (max-width:576px) {
+
+    .circle{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(155, 16, 155);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.6);
+    margin-bottom: 40px;
+    transition: 1s;
+    }
+    .circle:hover img{
+        position: absolute;
+        top: -30px;
+        left: 80px;
+        transition: 1s;
+    }
+    .circle:hover{
+        width: 300px;
+        height: 400px;
+    }
+    .circle:hover .contant{
+        position: absolute;
+        top: 50%;
+         right: 30%;
+        width: 50%;
+        opacity: 1;
+        transition: 1s;
+        padding: 10px;
+        
+    }
+    .circle .contant{
+        opacity: 0;
+    }
+}
+
+            /*---SKILSL SECTION ---*/
+#skills{
+    padding-top: 5%;
+}            
+#skills .container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+label{
+    font-size: 30px;
+}
+.progress{
+    box-shadow: 2px 4px 5px rgb(220, 220, 220), -2px -2px 5px white;
+    
+}
+.progress:hover{
+    box-shadow: 2px 2px 10px rgb(13, 14, 13),-2px -2px 50px rgb(1, 12, 1);
+  
+}
+                                /*----Education----*/
+#education{
+    background-color: rgb(25, 24, 24);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.carousel-inner{
+    color: aliceblue;
+    
+}
+.card{
+    background-color: black;
+}
+
+
+
+
+    
+
+  

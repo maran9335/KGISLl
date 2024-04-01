@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg form</title>
+    <style>
+        table{
+    text-align: right;
+
+    }
+    .nation{
+        
+        margin-right: 50px;
+    }
+    .gender{
+        margin-right: 120px;
+      
+    }
+    .dob{
+        margin-right: 90px;
+    }
+    .course{
+        margin-right: 50px;
+    }
+    .profile{
+        margin-right: 150px;
+    }
+       .file{
+       
+       }
+       .submit{
+        margin-right: 150px;
+        display: inline;
+        row-gap: 10px;
+       }
+     
+       
+       
+       fieldset{
+        width: 500px;
+       }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Registeration Form</legend>
+    
+    <table>
+        <tr>
+           <td> <label for="">NAME</label>
+            <input type="text"></td>
+        </tr>
+        <tr>
+            <td> <label for=""> FIRST NAME</label>
+             <input type="text"></td>
+         </tr>
+         <tr>
+            <td> <label for=""> LAST NAME</label>
+             <input type="text"></td>
+         </tr>
+         <tr>
+            <td> <label for=""> USER NAME</label>
+             <input type="text"></td>
+         </tr>
+         <tr>
+            <td> <label for="">possword</label>
+             <input type="password"></td>
+         </tr>
+         <tr>
+            <td> <label for="">Confirm Possword</label>
+             <input type="text"></td>
+         </tr>
+         <tr>
+            <td> <label for="">Email</label>
+             <input type="email"></td>
+         </tr>
+         <tr>
+            <td> <label for="">MOBILE</label>
+             <input type="number"></td>
+         </tr>
+        <div class="next">
+         <tr>
+            <td> <label class="gender">GENDER</label>
+             <input type="radio"  name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">Female</td>
+         </tr>
+         <tr>
+            <td> <label class="dob">DOB</label>
+             <input type="date"></td>
+         </tr>
+         <tr>
+            
+            
+              
+            <td><label class="course">COURSE</label>
+                <select >
+                <option value="">SELECT COURSE</option>
+                <option value="">B.COM</option>
+                <option value="">MSC</option>
+                <option value="">BE</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td> <label class="nation">Nationality</label>
+             <input type="checkbox" name="gender" value="option1"> indian
+            <input type="checkbox" name="gender" value="option2">Others</td>
+         </tr>
+         <tr>
+            <td> <label class="profile">PROFILE</label>
+                <img src="data:image/png;base64,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"
+                height="40px" alt=""><br></td>
+              <tr><td><input class="file" type="file"> </td></tr>
+         </tr>
+         <tr>
+            
+            <td class="submit"> 
+             <input class="" type="submit">
+            <input class="reset"  type="reset"></td>
+        
+         </tr>
+        </div>
+          
+         
+         
+        
+    </table>
+</fieldset>
+</body>
+</html>

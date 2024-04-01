@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://laguiacentral.com/wp-content/uploads/2022/10/Linktree-portada-1.jpg');
+    background-size: 5000px;
+}
+
+.navbar{
+    display: flex;
+    box-sizing: content-box;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: sticky;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 74, 74);
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 85;
+    margin-top: -13px;
+    margin-left: 20px;
+}
+
+.navtitles{
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+.logsin{
+    margin-top: 3px;
+    margin-left: 590px;
+}
+
+.logbut{
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: white;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.signbut{
+    display: inline-flex;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+img{
+    height: 500px;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+}
+
+.boltext{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(135, 238, 72);
+    margin-left: 80px;
+    margin-top: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para{
+    color: rgb(135, 238, 72);
+    margin-left: 80px;
+    margin-top: -110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+}
+
+.linkbox{
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: white;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.claimbut{
+    display: inline-flex;
+    background-color: rgb(240, 164, 232);
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: rgb(240, 164, 232);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.reglink{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+

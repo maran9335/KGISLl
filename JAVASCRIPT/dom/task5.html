@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">add to card</h1>
+    <input type="text" name="text" id="inputText">
+    <button onclick="docu()" id="add">add</button>
+    <h2 id="head2">my cart items</h2>
+    <li id="out" ></li>
+    <script>
+        function docu() {
+
+            let view = document.getElementById("out");
+
+            let newTd = document.createElement("li");
+            let add = document.getElementById("add");
+            add.style.backgroundColor="blue";
+            
+
+            var inputText = document.getElementById("inputText").value;
+
+            var node = document.createTextNode(inputText);
+
+            newTd.appendChild(node);
+
+            view.appendChild(newTd);
+
+            document.getElementById("inputText").value = "";
+
+        }
+
+    </script>
+</body>
+</html>

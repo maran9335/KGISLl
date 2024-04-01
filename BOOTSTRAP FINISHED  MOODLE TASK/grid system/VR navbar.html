@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<style>
+    body{
+        background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+    
+        
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .let{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        position: relative;
+
+    }
+    .btn{
+       position: absolute;
+       left: 45%;
+       bottom: 160px;
+       
+       
+        
+    }
+    @media screen and(max-width:400px) {
+      body{
+        background-size: cover;
+        background-position: center;
+      }
+      
+    }
+</style>
+</head>
+<body> 
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" width="50px" alt="">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">products</a>
+        <a class="nav-link" href="#">Recent blogs</a>
+        <a class="nav-link" href="#">Delevery & payment</a>
+     
+      </div>
+    </div>
+  </div>
+  
+</nav>
+<div class="let">
+<h1 class="TEXT text-light">The revolution of virtual reality</h1>
+<button class="btn bg-dark text-light">VIEW MORE</button></div>
+
+</body>
+</html>

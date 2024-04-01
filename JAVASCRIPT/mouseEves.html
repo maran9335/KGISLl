@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mouse Events on Box</title>
+    <style>
+      #box {
+        font-size: 24px;
+        cursor: pointer;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="box"
+      onmouseover="changeToGreen()"
+      onmouseout="changeToBlue()"
+      onmousedown="changeToRed()"
+      onmouseup="changeToYellow()"
+      ondblclick="changeToOrange()"
+    >
+      Mouse Events
+    </div>
+
+    <script>
+      const box = document.getElementById("box");
+
+      function changeToGreen() {
+        box.style.backgroundColor = "green";
+      }
+
+      function changeToBlue() {
+        box.style.backgroundColor = "blue";
+      }
+
+      function changeToRed() {
+        box.style.backgroundColor = "red";
+      }
+
+      function changeToYellow() {
+        box.style.backgroundColor = "yellow";
+      }
+
+      function changeToOrange() {
+        box.style.backgroundColor = "orange";
+      }
+    </script>
+  </body>
+</html>

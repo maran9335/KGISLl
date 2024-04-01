@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>welcome</h1>
+    <button>click</button>
+    <script>
+        var btn =document.querySelector('button');
+        var title=document.querySelector('h1');
+        btn.onclick=function(){
+            userdetails()
+        }
+        function userdetails(){
+
+           var name=prompt("please enter name")
+           localStorage.setItem("username",+name);
+           title.innerHTML="hello" +name;
+        }
+        if (!localStorage.getItem("name")){
+            userdetails();
+
+        }
+        else{
+            var name=localStorage.getItem("username");
+            title.innerHTML="hello" +name;
+        }
+
+    </script>
+</body>
+</html>

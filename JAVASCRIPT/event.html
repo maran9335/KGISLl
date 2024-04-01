@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>events</h1>
+    <button>submit</button>
+
+    <script>
+        let head1=document.querySelector("h1")
+        let btn1=document.querySelector("button")
+        document.addEventListener("click",()=>{
+            btn1.style.color="red"
+        })
+        document.addEventListener("dblclick",()=>{
+            btn1.style.backgroundColor="blue" 
+        })
+        document.addEventListener("keypress",()=>{
+            console.log("keypress")
+        })
+        document.addEventListener("keydown",(e)=>{
+            console.log(e)
+            switch(e.key){
+                case "Enter":
+                    alert("click enter");
+                    break;
+                case "Shift":
+                    alert("shift key");
+                    break;
+                case "number4":
+                    alert("mumber");
+                    break;
+                    default :
+                    alert("novaluees")
+            }
+        })
+       
+        function call(){
+            
+        }
+    </script>
+</body>
+</html>

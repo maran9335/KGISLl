@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22</title>
+</head>
+<body>
+    <input text="textbox" id="number">
+    <button onclick="submit()">click</button>
+    <select id="dropdown">
+
+    </select>
+    <script>
+        function submit(){
+             var num =document.getElementById("number").value
+             var dropdown=document.getElementById("dropdown")
+             for (var i=0;i<=parseInt(num);i++)
+             var option = document.createElement("option")
+             option.value=i;
+             option.text=i;
+             dropdown.appendChild(option)
+        } 
+    </script>
+</body>
+</html>

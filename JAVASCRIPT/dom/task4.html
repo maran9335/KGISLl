@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function createLoginForm() {
+  var divElement = document.createElement('div');
+  var textNode = document.createTextNode('Login Page');
+  var inputElement = document.createElement('input');
+  inputElement.setAttribute('type', 'text');
+  inputElement.setAttribute('placeholder', 'Enter your username');
+  var buttonElement = document.createElement('button');
+  var buttonText = document.createTextNode('Click');
+  buttonElement.appendChild(buttonText);
+  divElement.appendChild(textNode);
+  divElement.appendChild(inputElement);
+  divElement.appendChild(buttonElement);
+  document.body.appendChild(divElement);
+}
+
+createLoginForm();
+
+    </script>
+</body>
+</html>

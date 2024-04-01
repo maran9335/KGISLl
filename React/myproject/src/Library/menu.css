@@ -1,0 +1,29 @@
+.menu{
+   background-color: rgb(84, 80, 80);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.menu
+.nav-home:hover{
+    border-bottom: 3px solid red;
+    color: red;
+
+}
+.navlogin:hover{
+    border-bottom: 3px solid red;
+    color: red;
+    
+}
+.bookicon{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.letter{
+    margin-right:200px;
+    
+    
+}

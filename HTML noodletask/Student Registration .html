@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student reg <form action="" method="post"></form></title>
+    <link rel="stylesheet" href="student.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+   margin: auto;
+   padding-left: 20%;
+   
+}
+table{
+  
+  background-color: blue;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 600;
+    
+    
+  
+}
+label{
+  
+    width: 250px;
+   display: inline-block;
+
+
+  
+}
+caption{
+    font-size: 30px;
+    color: black;
+}
+#btn{
+    text-align: center;
+    margin-top: 10px;
+}
+#last{
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>STUDENT REGIESTRATION FORM</caption>
+        <tr>
+            <td>
+                <label for="">FIRST NAME</label>
+                <input type="text">(Max 30 characters A-Z and a-z)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">LASTNAME</label>
+                <input type="text">(Max 30 characters A-Z and a-z)
+            </td>
+            <tr>
+                <td>
+                    <label for="">DOB</label>
+                    <select name="" id="">day
+                    <option>day</option>
+                    <option>1 </option>
+                   <option value="">2</option>
+                   <option value="">3</option>
+                   <option value="">4</option>
+                   <option value="">5</option>
+                   <option value="">6</option>
+                </select>
+                <select name="" id="">day
+                  <option value="">Month</option>
+                  <option value="">JAN </option>
+                   <option value="">FEB</option>
+                   <option value="">MAR</option>
+                   <option value="">APR</option>
+                   <option value="">MAY</option>
+                   <option value="">JUNE</option>
+                </select>
+                <select name="" id="">YEAR
+                    <option value="">2000</option>
+                    <option value="">2001 </option>
+                     <option value="">2002</option>
+                     <option value="">2003</option>
+                     <option value="">2004</option>
+                     <option value="">2005</option>
+                     <option value="">2006</option>
+                  </select>
+                </td>
+
+            </tr>
+        </tr>
+        <tr>
+            <td>
+                <label for="">EMAIL ID</label>
+                <input type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">MOBILE NUMBER</label>
+                <input type="email">(10digitnumber)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">gender</label>
+                <input type="radio" name="gender" value="male"> male
+                <input type="radio" name="gender" value="female">female
+            </td>
+        </tr>
+        
+            <tr>
+                <td>
+                    <label for="">ADDRESS</label> 
+                    <textarea name=" commands" id="" cols="20" rows="4"></textarea></td>
+                </td>
+                <td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="">CITY</label>
+                    <input type="email">(max30characters)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">PINCODE</label>
+                    <input type="number">(6digitnumber)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">STATE</label>
+                    <input type="text">(max30letters)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">COUNTRY</label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">HOBBIES</label>
+                    <input type="checkbox">Drawing
+                    <input type="checkbox">Singing
+                    <input type="checkbox">Dancing
+                    <input type="checkbox">Skeching<br>
+                    <input type="checkbox">Dancing
+                    <input type="text"  size="10">
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">qualification</label>
+                
+                   <table>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of passing</th>
+
+                     
+                    </tr>
+                    
+                    <tr>
+                        <td>1</td>
+                        <td>classx</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>class XII</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graution</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan=""></td>
+                        <td colspan="">(upto2desimal)</td>
+                        <td colspan=""> (10charmax)</td>
+                        <td></td>
+                    </tr>
+                    
+                   </table> 
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Course Applied</label>
+                    <input type="radio" name="course" value="name" >BSC
+                    <input type="radio" name="course" value="name"  >B.COM
+                    <input type="radio" name="course" value="name" >BCA
+                    <input type="radio" name="course" value="name" >B.A
+
+                </td>
+            </tr>
+            <div >
+           <tr id="btn">
+            <td> <input  id="last" type="submit">
+            <input id="last"  type="reset"></td>
+           </tr></div>
+    </table>
+    
+</body>
+</html>
